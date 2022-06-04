@@ -1,0 +1,19 @@
+GenericEntity {
+ ID "5988AC80D91E8877"
+ components {
+  EL_PersistencyIdTestComponent "{5988AC85484A3853}" {
+  }
+  MeshObject "{5988AC85F9B25EA5}" {
+   Object "{CD1CAAD3EFC0BE21}Assets/Props/Crates/CrateWooden_01/CrateWooden_01.xob"
+  }
+  RigidBody "{5988AC85F9B25E39}" {
+   Mass 20
+   CenterOfMass 0 0.5 0
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 111.321 0.001 133.858
+ angleY -93.786
+ Flags 1027
+}

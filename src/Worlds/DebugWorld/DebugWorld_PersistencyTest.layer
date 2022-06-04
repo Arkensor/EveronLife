@@ -1,0 +1,20 @@
+$grp GenericEntity : "{82321B07D066ECE7}Prefabs/PersistentWorldObjectTest.et" {
+ {
+  components {
+   EL_PersistencyIdTestComponent "{5988AC85484A3853}" {
+    m_PersistencyID "5988C6AD1923AF8F"
+   }
+  }
+  coords 108.787 0.001 132.407
+  angleY 0
+ }
+ {
+  components {
+   EL_PersistencyIdTestComponent "{5988AC85484A3853}" {
+    m_PersistencyID "STEVE"
+   }
+  }
+  coords 112.413 0.001 132.903
+  angleY 0
+ }
+}
