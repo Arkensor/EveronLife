@@ -200,7 +200,14 @@ class EL_SirenManagerComponent : ScriptComponent
 	override bool RplSave(ScriptBitWriter writer)
 	{
 		writer.WriteIntRange(m_CurrentModeIndex, 0, EL_SirenMode.N_MODES);
-		writer.WriteFloat(m_CurrentMode.GetAnimation().GetTimeInLoop());
+		if (m_CurrentMode) 
+		{
+			writer.WriteFloat(m_CurrentMode.GetAnimation().GetTimeInLoop());
+		}
+		else
+		{
+			writer.WriteFloat(0.0);
+		}
 		return true;
 	}
 	

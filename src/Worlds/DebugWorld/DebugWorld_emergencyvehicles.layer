@@ -1,0 +1,32 @@
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   LightAction {
+    SCR_LightsPresenceUserAction "{51E22680E477E540}" {
+     ParentContextList {
+      ""
+     }
+    }
+    SCR_LightsHiBeamsUserAction "{51E210F16AE9EA0B}" {
+     ParentContextList {
+      ""
+     }
+    }
+    SCR_LightsHazardUserAction "{51E210F155B6953C}" {
+     ParentContextList {
+      ""
+     }
+    }
+    SCR_LightsTurnLeftUserAction "{51E210F151E686A9}" {
+     ParentContextList {
+      "light_switch"
+     }
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 10408.7
+  }
+ }
+ coords 104.277 0.001 139.256
+}

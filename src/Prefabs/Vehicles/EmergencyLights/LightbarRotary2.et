@@ -2,7 +2,6 @@ GenericEntity {
  ID "59DC7E80C4218844"
  components {
   BaseLightManagerComponent "{59E977148743547D}" {
-   LightsEnabled 1
    LightSlots {
     BaseLightSlot "{59E977148B62B456}" {
      LightType SearchLight
@@ -10,7 +9,7 @@ GenericEntity {
       PivotID "SpotlightLeft"
       Offset 0 0 0
      }
-     LightPrefab "{106E09E20DEC5730}Prefabs/Vehicles/Core/Lights/VehicleLight_SearchLight.et"
+     LightPrefab "{106E09E20DEC5730}Prefabs/Vehicles/EmergencyLights/Base/VehicleLight_SearchLight.et"
     }
     BaseLightSlot "{59E977134866A452}" {
      LightType SearchLight
@@ -18,7 +17,7 @@ GenericEntity {
       PivotID "SpotlightRight"
       Offset 0 0 0
      }
-     LightPrefab "{106E09E20DEC5730}Prefabs/Vehicles/Core/Lights/VehicleLight_SearchLight.et"
+     LightPrefab "{106E09E20DEC5730}Prefabs/Vehicles/EmergencyLights/Base/VehicleLight_SearchLight.et"
     }
    }
    EmissiveSurfaceSlots {

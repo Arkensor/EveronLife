@@ -3,7 +3,7 @@ ProcAnimSignalResClass {
   IOPItemInputClass {
    id 1
    name "Rotation"
-   tl -319 3
+   tl -316.778 0.778
    children {
     5
    }
@@ -24,7 +24,7 @@ ProcAnimSignalResClass {
   IOPItemOpSmootherClass {
    id 5
    name "Smoother 5"
-   tl -72 -3
+   tl -77.556 1.444
    children {
     3
    }
@@ -41,7 +41,7 @@ ProcAnimSignalResClass {
   IOPItemOpSmootherClass {
    id 6
    name "Smoother 5"
-   tl -63 104
+   tl -76 100
    children {
     4
    }
@@ -60,13 +60,13 @@ ProcAnimSignalResClass {
   IOPItemOutputClass {
    id 3
    name "Rotation"
-   tl 155 -3
+   tl 150.556 0.333
    input 5
   }
   IOPItemOutputClass {
    id 4
    name "Translation"
-   tl 163 98
+   tl 149.778 100.111
    input 6
   }
  }
