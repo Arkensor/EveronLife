@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F227DE7A6AF126EF}Assets/Resources/Gathering/Drugs/Data/AceticAnhydride.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

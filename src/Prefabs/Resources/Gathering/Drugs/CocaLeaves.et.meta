@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4FF974001768F426}Prefabs/Resources/Gathering/Drugs/CocaLeaves.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

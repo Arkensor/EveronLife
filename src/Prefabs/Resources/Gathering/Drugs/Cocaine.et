@@ -1,0 +1,25 @@
+GenericEntity : "{8B993DEBBF41116C}Prefabs/Items/Core/RoleplayItem_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Cocaine"
+     Description "A pouch full of cocaine"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.5
+    }
+   }
+  }
+  MeshObject "{5A4ACD10B8DA304F}" {
+   Object "{250B64167B3A6475}Assets/Items/Food/MRE_01.xob"
+   Materials {
+    MaterialAssignClass "{5B0F1612FF24720E}" {
+     SourceMaterial "MRE_01"
+     AssignedMaterial "{8E48808880025629}Assets/Resources/Gathering/Drugs/Data/CocainePackage.emat"
+    }
+   }
+  }
+ }
+}

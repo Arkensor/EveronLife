@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BA18B15488905CB3}Prefabs/Resources/Gathering/Drugs/MagicMushrooms.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2E70476087309A2A}Assets/Resources/Gathering/Drugs/Data/MagicMushrooms.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

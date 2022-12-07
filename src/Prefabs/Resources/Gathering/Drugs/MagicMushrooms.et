@@ -1,0 +1,25 @@
+GenericEntity : "{8B993DEBBF41116C}Prefabs/Items/Core/RoleplayItem_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Magic Mushrooms"
+     Description "Mushrooms that can have a psychedelic effect."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.15
+    }
+   }
+  }
+  MeshObject "{5A4ACD10B8DA304F}" {
+   Object "{82DB58D6480BD552}Assets/Clutter/Vegetation/Mushrooms/c_mushrooms_01.xob"
+   Materials {
+    MaterialAssignClass "{5B0F09970D400108}" {
+     SourceMaterial "mushroom_01"
+     AssignedMaterial "{2E70476087309A2A}Assets/Resources/Gathering/Drugs/Data/MagicMushrooms.emat"
+    }
+   }
+  }
+ }
+}
